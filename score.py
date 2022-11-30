@@ -12,6 +12,10 @@ weights_file = "weights/srcnn_x4.pth"
 image_file = "data-paper/butterfly_test.bmp"
 scale = 4
 
+def init():
+    global model
+
+
 # if __name__ == '__main__':
 #     parser = argparse.ArgumentParser()
 #     parser.add_argument('--weights-file', type=str, required=True)
