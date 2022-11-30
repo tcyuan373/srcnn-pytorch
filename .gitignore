@@ -1,2 +1,8 @@
 .DS_Store
 .idea
+outputs
+data
+*amltmp
+__pycache__
+.ipynb_aml_checkpoints
+.amlignore
